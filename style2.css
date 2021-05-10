@@ -1,0 +1,648 @@
+body{
+	font-family: "Audiowide", sans-serif;
+	margin: 12px ;
+}
+#header{
+	height: 700px;
+	width: 100%;
+	background-color: black; 
+	background-image: url(images/new1.jpg);
+	background-size: 100% 100%;
+}
+.he{
+	color: white;
+	padding: 60px 0px 0px 0px;
+	margin-right: 600px;
+}
+#cr{
+	position: right-top;
+	float: right;
+	padding: 8px 30px 0px 0px;
+
+}
+#cr1{
+	color: white;
+	font-size: 15px;
+	float: right;
+	padding: 20px 30px 0px 0px;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+
+
+li{
+	
+	color: white;
+	float: right;
+	padding: 2px 120px 0px 0px;
+
+
+}
+li a{
+
+	text-decoration: none;
+	color: white;
+	padding-top: 1px;
+	position: absolute;
+
+}
+ .an:hover{
+	
+	color: white;
+	font-weight: bolder;
+	font-size: 18px;
+	color: white;
+}
+#header p{
+	color: white;
+	padding: 200px 0px 0px 370px;
+	font-size: 35px;
+	float: left;
+	text-align: center;
+}
+.change_content:after
+ {
+    content: "";
+    
+    animation: changetext 10s infinite linear;
+    
+
+
+}
+ @keyframes changetext
+{
+	0%{content: "Healthy";}
+	20%{content: "Wealthy";}
+	35%{content: "Marijuana";}
+	
+
+	
+
+}
+
+
+
+
+
+#header h3{
+	margin-top: 5px;
+	color: white;
+	font-size: 20px;
+	float: left;
+	padding: 1px 0px 0px 365px;
+	text-align: center;
+
+}
+#btn{
+	margin-top: 20px;
+	background-color: transparent;
+	border-radius: 40px;
+	font-size: 20px;
+	color: white;
+	padding: 10px 25px 10px 25px;
+	border: 5px solid white;
+}
+#btn:hover{
+	color: white;
+	font-weight: bolder;
+	border: 5px solid #99ff99;
+}
+  #btn10{
+	margin: 20px 0px 0px 30px;
+	padding: 10px 20px 10px 20px;
+	color: #004d00;
+	font-size: 18px;
+	border: 5px solid #003300;
+	background-color: white;
+	border-radius: 30px;
+	font-weight: bold;
+}
+#btn10:hover{
+	background-color: #003300;
+	color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  /*z-index: 1px;
+  overflow: auto;*/
+}
+.show {display: block;}
+
+/*#window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}*/
+.dropdown-content a {
+  color: green;
+  padding: 1px 0px 16px 0px;
+  text-decoration: none;
+  display: block;
+  font-weight: bolder;
+}
+#myDropdown{
+	height: 170px;
+	width: 100px;
+	background-color: white;
+	margin: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#menu{
+	height: 600px;
+	width: 100%;
+	background-color: white;
+	background-image: url(images/a16.jpg);
+	background-size:  100% 100%;
+	background-repeat: no-repeat;
+
+}
+#menu h1{
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 40px;
+	font-weight: lighter;
+}
+.box{
+	height: 400px;
+	width: 250px;
+	
+	float: left;
+	margin: 10px 0px 0px 140px;
+	background-color: white;
+}
+ h4{
+	text-align: center;
+	font-weight: lighter;
+	
+}
+h6{
+	text-align: center;
+	font-weight: lighter;
+}
+.box #mbn{
+	border-radius: 40px;
+	background-color: transparent;
+	border:2px solid green;
+	padding: 10px 25px 10px 25px;
+	text-align: center;
+	margin: 5px 0px 0px 65px;
+	font-weight: bold;
+	position: absolute;
+
+}
+.box #mbn:hover{
+	background-color: #003300;
+	color: white;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#product{
+	height: 750px;
+	width: 100%;
+	background-color: white;
+	
+
+}
+h1{
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 40px;
+	font-weight: lighter;
+}
+#org3 .p1{
+	height: 250px;
+	width: 180px;
+	border:1px solid black;
+	float: left;
+	 margin: 30px;
+	 background-image: url(images/last.jpg);
+	 background-size: 175px 160px;
+	 background-repeat: no-repeat;
+
+
+
+}
+#btn3{
+
+	margin: 190px 0px 0px 16px;
+	padding: 8px 30px 8px 30px;
+	color: #004d00;
+	font-size: 15px;
+	border: 3px solid #003300;
+	background-color: white;
+	border-radius: 40px;
+	font-weight: bold;
+}
+#btn3:hover{
+	background-color: #003300;
+	color: white;
+}
+
+}
+#org1{
+	width: 100%;
+	height: 250px;
+	background-color: white;
+	background-image: url(images/a23.jpg);
+	background-size:700% 1500%; 
+	
+}
+#org2{
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	/*background-image: url(images/a23.jpg);
+	background-size: 100% auto; */
+	
+
+}
+#org3{
+	height: 320px;
+	width: 1000px;
+	background-color: white;
+	margin: 30px 0px 0px 160px;
+	overflow: visible;
+
+	overflow-y:auto; 
+	white-space: nowrap;
+	direction: ltr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content{
+	height: 600px;
+	width: 100%;
+	background-color: white;
+	
+}
+#content .c{
+	border:1px solid white;
+	background-color: white;
+	height: 400px;
+	width: 200px;
+	float: left;
+	margin: 50px 0px 0px 80px;
+	
+
+}
+.ce{
+	border:1px solid white;
+	background-color: white;
+	height: 400px;
+	width: 130px;
+	float: left;
+	margin: 50px 0px 0px 80px;
+	
+
+}
+.c .cd{
+	height: 128px;
+	width: 195px;
+	background-color: white;
+	border:1px solid white;
+	/*background-image: url(images/leaf2.png);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;*/
+
+}
+.aa{
+	background-color: white;
+	height: 130px;
+	width: 150px;
+	float: left;
+}
+.bb{
+	background-color: white;
+	height: 130px;
+	width: 43px;
+	float: right;
+	background-image: url(images/leaf2.png);
+	background-size: 50px 100px;
+	background-repeat: no-repeat;
+
+}
+.f{
+
+	height: 130px;
+	width: 150px;
+	float: right;
+	
+}
+.e{
+	
+	height: 130px;
+	width: 43px;
+	float: left;
+	background-image: url(images/leaf2.png);
+	background-size: 50px 100px;
+	background-repeat: no-repeat;
+
+}
+h4{
+	font-size: 10px;
+	font-weight: bold;
+	padding-right: 2px;
+}
+.aa h6{
+	font-size: 7px;
+}
+.f h6{
+	font-size: 7px;
+}
+
+
+
+
+
+
+
+
+.cb{
+	border:1px solid white;
+	background-color: white;
+	height: 400px;
+	width: 200px;
+	float: left;
+	margin: 50px 0px 0px 80px;
+	
+
+}
+.cb1{
+	background-color: white;
+	height: 80px;
+	width: 200px;
+	text-align: center;
+	font-weight: bolder;
+	color: #003300;
+
+}
+.cb2{
+	background-color: white;
+	height: 250px;
+	width: 200px;
+	background-image: url(images/n2.jpg);
+	background-size: 100% 100%;
+
+}
+.head{
+	font-size: 40px;
+	  font-family: "Sofia", sans-serif;
+	  text-align: center;
+	  padding: 0px 10px 0px 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#search{
+	height: 300px;
+	width: 100%;
+	background-color: white;
+
+}
+#search .sb{
+	height: 200px;
+	width: 1250px;
+	border: 2px solid white;
+	margin-left: 33px;
+	box-shadow: 2px 2px 2px 2px grey;
+}
+#news{
+	font-size: 10px;
+	padding: 40px 0px 0px 180px;
+}
+#lett{
+	font-size: 23px;
+	margin: 0 auto;
+	padding:0px 0px 0px 180px;
+}
+input{
+	padding: 10px 50px 10px 50px;
+	margin-left: 20px;
+	border-radius: 40px;
+	text-align: center;
+	border:1px solid grey;
+
+}
+#btn2{
+	margin: 20px 0px 0px 30px;
+	padding: 8px 40px 8px 40px;
+	color: #004d00;
+	font-size: 15px;
+	border: 3px solid #003300;
+	background-color: white;
+	border-radius: 40px;
+	font-weight: bold;
+}
+#btn2:hover{
+	background-color: #003300;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contact{
+	height: 400px;
+	width: 100%;
+	background-color: white;
+
+}
+.cn1{
+	height: 300px;
+	width: 160px;
+	border:1px solid white;
+	float: left;
+	margin-left: 260px;
+    
+}
+.he1{
+	color: green;
+	padding: 0px 0px 0px 20px;
+	
+	font-size: 25px;
+}
+#lipso{
+	text-align: justify;
+	font-weight: lighter;
+	font-size: 8px;
+
+}
+.cn2{
+	height: 300px;
+	width: 280px;
+	border:1px solid white;
+	float: left;
+	margin-left: 50px;
+    
+}
+.cn21{
+	height: 300px;
+	width: 135px;
+	border:1px solid white;
+	float: left;
+}
+.cn21 li{
+color: black;
+font-size: 8px;
+text-align: center;
+}
+.cn3{
+	height: 300px;
+	width: 280px;
+	border:1px solid white;
+	float: left;
+	margin-left: 50px;
+    background-image: url(images/im.jpg);
+    background-size: 100% 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+height: 30px;
+width: 100%;
+background-color: #003300;
+}
+#foot{
+	
+	font-weight: lighter;
+	padding: 5px;
+	float: left;
+}
+#ft{
+	float: right;
+	color: white;
+	text-align: right;
+	padding: 10px;
+	margin: 0px;
+	font-size: 9px;
+}
